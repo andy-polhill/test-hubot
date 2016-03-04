@@ -14,7 +14,7 @@ RUN npm install
 
 ENV HUBOT_ADAPTER=slack
 ENV HUBOT_SLACK_TEAM=audiences
-ENV HUBOT_SLACK_BOTNAME=audibot
+ENV HUBOT_SLACK_BOTNAME=hugobot
 
 EXPOSE 8080
 ENTRYPOINT ["/hubot/bin/hubot"]
